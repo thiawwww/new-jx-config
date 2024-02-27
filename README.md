@@ -1,3 +1,6 @@
+# DEPRECATED
+
+This repo is part of Jenkins X 2 that has not been maintained since 2022.
 
 ## Jenkins X Boot Configuration
 
