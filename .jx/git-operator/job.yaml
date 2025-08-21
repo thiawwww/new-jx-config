@@ -1,0 +1,11 @@
+apiVersion: jenkins.io/v1
+kind: Job
+metadata:
+  name: test-job
+spec:
+  git:
+    url: https://github.com/thiawwww/new-jx-config
+  steps:
+    - name: echo
+      command: ["echo"]
+      args: ["Hello Jenkins X"]
